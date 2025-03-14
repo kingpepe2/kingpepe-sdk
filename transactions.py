@@ -1,16 +1,14 @@
 import requests
-from kpepe.config import API_URL
 
 class KingPepeTransaction:
+    API_URL = "https://kpepe-explorer.pool.sexy/api"
+
+    @staticmethod
+    def get_balance(address):
+        response = requests.get(f"{KingPepeTransaction.API_URL}/address/{address}")
+        return response.json().get("balance", 0)
+
     @staticmethod
     def send_kpepe(from_address, to_address, amount, private_key):
-        """ إرسال KPEPE إلى عنوان آخر """
-        url = f"{API_URL}/send"
-        payload = {
-            "from": from_address,
-            "to": to_address,
-            "amount": amount,
-            "private_key": private_key
-        }
-        response = requests.post(url, json=payload)
-        return response.json()
+        # Placeholder for real transaction signing and sending
+        return f"Transaction of {amount} KPEPE from {from_address} to {to_address} simulated."

@@ -1,6 +1,6 @@
-# King Pepe (KPEPE) SDK
+# KingPepe SDK (v1.1)
 
-This is an SDK for interacting with the King Pepe blockchain.
+This is the official Python SDK for the KingPepe blockchain. It allows developers to create wallets, send transactions, check balances, and fetch market data.
 
 ## Installation
 ```bash

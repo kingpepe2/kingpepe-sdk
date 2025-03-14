@@ -1,2 +1,1 @@
-# عنوان API الرسمي لمستكشف King Pepe
-API_URL = "https://kpepe-explorer.pool.sexy/api"
+API_BASE_URL = "https://kpepe-explorer.pool.sexy/api"
