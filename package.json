@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@bitcointry/api": "^1.0.4",
+    "electron-store": "^10.0.1"
+  },
+  "devDependencies": {
+    "electron": "^35.0.0"
+  }
+}
