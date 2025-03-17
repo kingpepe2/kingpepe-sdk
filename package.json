@@ -1,9 +1,12 @@
 {
-  "dependencies": {
-    "@bitcointry/api": "^1.0.4",
-    "electron-store": "^10.0.1"
+  "name": "kingpepe-sdk",
+  "version": "1.0.0",
+  "description": "SDK for King Pepe Blockchain",
+  "main": "kpepe-sdk.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 1"
   },
-  "devDependencies": {
-    "electron": "^35.0.0"
-  }
+  "keywords": ["kingpepe", "blockchain", "cryptocurrency", "wallet"],
+  "author": "Your Name",
+  "license": "MIT"
 }
